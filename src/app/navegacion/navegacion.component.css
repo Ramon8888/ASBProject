@@ -1,0 +1,11 @@
+#nave {
+  background-color: #1380FE;
+}
+#boton {
+  border-color: white;
+  color: white;
+}
+#boton:hover {
+  background-color: gray;
+  color: white;
+}
