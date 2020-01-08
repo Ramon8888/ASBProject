@@ -21,15 +21,16 @@
          Servicios
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Páginas Web</a>
-          <a class="dropdown-item" href="#">Tiendas Online</a>
+          <a class="dropdown-item" [routerLink]="['/website']">Páginas Web</a>
+          <a class="dropdown-item" [routerLink]="['/store']">Tiendas Online</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Sistemas de control</a>
-          <a class="dropdown-item" href="#">Aplicaciones móviles</a>
+          <a class="dropdown-item" [routerLink]="['/dashboard']">Sistemas de control</a>
+          <a class="dropdown-item" [routerLink]="['/appmobile']">Aplicaciones móviles</a>
+          <a class="dropdown-item" [routerLink]="['/community']">Manejo de redes sociales</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1">Talleres</a>
+        <a class="nav-link disabled" [routerLink]="['/tranning']" tabindex="-1">Talleres</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://wa.me/525534809782" target="blank">Contacto: (52) 55 3480-9782</a>

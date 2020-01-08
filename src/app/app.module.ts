@@ -8,6 +8,12 @@ import { NavegacionComponent } from './navegacion/navegacion.component';
 import { RegistroUsuariosComponent } from './registro-usuarios/registro-usuarios.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { WebsiteComponent } from './home/website/website.component';
+import { StoreComponent } from './home/store/store.component';
+import { AppmobileComponent } from './home/appmobile/appmobile.component';
+import { DashboardComponent } from './home/dashboard/dashboard.component';
+import { CommunityComponent } from './home/community/community.component';
+import { TranningComponent } from './home/tranning/tranning.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { FooterComponent } from './footer/footer.component';
     NavegacionComponent,
     RegistroUsuariosComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    WebsiteComponent,
+    StoreComponent,
+    AppmobileComponent,
+    DashboardComponent,
+    CommunityComponent,
+    TranningComponent
   ],
   imports: [
     BrowserModule,

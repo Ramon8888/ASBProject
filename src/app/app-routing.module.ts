@@ -4,6 +4,12 @@ import { LoginComponent } from './login/login.component' ;
 import { NavegacionComponent } from './navegacion/navegacion.component' ;
 import { RegistroUsuariosComponent } from './registro-usuarios/registro-usuarios.component' ;
 import { HomeComponent } from './home/home.component' ;
+import { AppmobileComponent } from './home/appmobile/appmobile.component' ;
+import { CommunityComponent } from './home/community/community.component' ;
+import { DashboardComponent } from './home/dashboard/dashboard.component' ;
+import { StoreComponent } from './home/store/store.component' ;
+import { TranningComponent } from './home/tranning/tranning.component' ;
+import { WebsiteComponent } from './home/website/website.component' ;
 import { FooterComponent } from './footer/footer.component' ;
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -18,7 +24,13 @@ const routes: Routes = [
   { path: 'login' , component: LoginComponent } ,
   { path: 'navegacion' , component: NavegacionComponent },
   { path: 'registro-usuarios' , component: RegistroUsuariosComponent },
-  { path: 'footer' , component: FooterComponent }
+  { path: 'footer' , component: FooterComponent },
+  { path: 'appmobile' , component: AppmobileComponent },
+  { path: 'community' , component: CommunityComponent },
+  { path: 'dashboard' , component: DashboardComponent },
+  { path: 'tranning' , component: TranningComponent },
+  { path: 'website' , component: WebsiteComponent },
+  { path: 'store' , component: StoreComponent }
 ];
 
 @NgModule({
