@@ -11,6 +11,7 @@ import { StoreComponent } from './home/store/store.component' ;
 import { TranningComponent } from './home/tranning/tranning.component' ;
 import { WebsiteComponent } from './home/website/website.component' ;
 import { FooterComponent } from './footer/footer.component' ;
+import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component' ;
 
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
@@ -30,7 +31,8 @@ const routes: Routes = [
   { path: 'dashboard' , component: DashboardComponent },
   { path: 'tranning' , component: TranningComponent },
   { path: 'website' , component: WebsiteComponent },
-  { path: 'store' , component: StoreComponent }
+  { path: 'store' , component: StoreComponent },
+  { path: 'recovery-pass' , component: RecoveryPassComponent }
 ];
 
 @NgModule({

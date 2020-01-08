@@ -14,6 +14,7 @@ import { AppmobileComponent } from './home/appmobile/appmobile.component';
 import { DashboardComponent } from './home/dashboard/dashboard.component';
 import { CommunityComponent } from './home/community/community.component';
 import { TranningComponent } from './home/tranning/tranning.component';
+import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TranningComponent } from './home/tranning/tranning.component';
     AppmobileComponent,
     DashboardComponent,
     CommunityComponent,
-    TranningComponent
+    TranningComponent,
+    RecoveryPassComponent
   ],
   imports: [
     BrowserModule,
