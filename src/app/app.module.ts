@@ -15,6 +15,9 @@ import { DashboardComponent } from './home/dashboard/dashboard.component';
 import { CommunityComponent } from './home/community/community.component';
 import { TranningComponent } from './home/tranning/tranning.component';
 import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component';
+import { WebGeneratorComponent } from './web-generator/web-generator.component';
+import { ProjectMenuComponent } from './project-menu/project-menu.component';
+import { ProjectFilterPipe } from './pipes/project-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -30,13 +33,16 @@ import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component';
     DashboardComponent,
     CommunityComponent,
     TranningComponent,
-    RecoveryPassComponent
+    RecoveryPassComponent,
+    WebGeneratorComponent,
+    ProjectMenuComponent,
+    ProjectFilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

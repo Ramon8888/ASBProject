@@ -12,6 +12,7 @@ import { TranningComponent } from './home/tranning/tranning.component' ;
 import { WebsiteComponent } from './home/website/website.component' ;
 import { FooterComponent } from './footer/footer.component' ;
 import { RecoveryPassComponent } from './recovery-pass/recovery-pass.component' ;
+import { ProjectMenuComponent } from './project-menu/project-menu.component' ;
 
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
@@ -32,7 +33,8 @@ const routes: Routes = [
   { path: 'tranning' , component: TranningComponent },
   { path: 'website' , component: WebsiteComponent },
   { path: 'store' , component: StoreComponent },
-  { path: 'recovery-pass' , component: RecoveryPassComponent }
+  { path: 'recovery-pass' , component: RecoveryPassComponent },
+  { path: 'project-menu' , component: ProjectMenuComponent }
 ];
 
 @NgModule({
