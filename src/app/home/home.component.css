@@ -244,6 +244,11 @@ input[type=text]:placeholder {
   -moz-animation-delay: 1s;
   animation-delay: 1s;
 }
+.fadeIn.last {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 12s;
+  animation-delay: 1s;
+}
 
 /* Simple CSS3 Fade-in Animation */
 .underlineHover:after {

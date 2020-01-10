@@ -40,7 +40,7 @@ import { ProjectFilterPipe } from './pipes/project-filter.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [ ],
   bootstrap: [AppComponent]
